@@ -2,6 +2,8 @@
 
 //quando si clicca su un'immagine, viene aperta a tutto schermo
 
-document.getElementsByTagName("img").addEventListener("click", function(){
-  window.open(this.src);
-});
+immagini[] = document.getElementsByTagName("img");
+
+for (immagine in immagini){
+  immagine.addEventListener("click", window.open(immagine.src));
+}
