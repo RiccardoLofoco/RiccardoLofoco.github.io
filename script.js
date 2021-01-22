@@ -4,6 +4,8 @@
 
 immagini = document.getElementsByTagName("img");
 
+console.log(immagini);
+
 for (immagine in immagini){
   immagine.addEventListener("contextmenu",
       function(){
