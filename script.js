@@ -5,5 +5,11 @@
 immagini = document.getElementsByTagName("img");
 
 for (immagine in immagini){
-  immagine.addEventListener("contextmenu", function(){if(confirm("Aprire l'immagine?")){window.open(immagine.url);}));
+  immagine.addEventListener("contextmenu",
+      function(){
+        if(confirm("Aprire l'immagine?")){
+          window.open(immagine.url);
+        }
+      }
+    );
 }
