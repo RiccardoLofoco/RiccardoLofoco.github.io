@@ -5,5 +5,5 @@
 immagini[] = document.getElementsByTagName("img");
 
 for (immagine in immagini){
-  immagine.addEventListener("click", window.open(immagine.src));
+  immagine.addEventListener("click", window.open(immagine.url));
 }
