@@ -4,8 +4,13 @@
 
 immagini = document.getElementsByTagName("img");
 
+function apriimg(imgn){
+  if(confirm("Aprire l'immagine?")){
+    window.open(imgn.url);
+  }
+}
 console.log(immagini);
 
 for (immagine in immagini){
-  immagine.addEventListener("contextmenu", function(){ if(confirm("Aprire l'immagine?")){ window.open(immagine.url); }});
+  immagine.addEventListener("contextmenu", apriimg(immagine));
 }
