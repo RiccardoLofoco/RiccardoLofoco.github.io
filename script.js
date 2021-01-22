@@ -4,4 +4,4 @@
 
 document.getElementsByTagName("img").addEventListener("click", function(){
   window.open(this.src);
-})
+});
