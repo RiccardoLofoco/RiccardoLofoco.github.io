@@ -5,9 +5,9 @@
 immagini = document.getElementsByTagName("img");
 
 function apriimg(imgn){
-  if(confirm("Aprire l'immagine?")){
+  /*if(confirm("Aprire l'immagine?")){
     window.open(imgn.src);
-  }
+  }*/
 }
 console.log(immagini);
 
