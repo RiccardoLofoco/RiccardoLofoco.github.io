@@ -6,7 +6,7 @@ immagini = document.getElementsByTagName("img");
 
 function apriimg(imgn){
   if(confirm("Aprire l'immagine?")){
-    window.open(imgn.url);
+    window.open(imgn.src);
   }
 }
 console.log(immagini);
