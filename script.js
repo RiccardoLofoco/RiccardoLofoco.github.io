@@ -12,5 +12,5 @@ function apriimg(imgn){
 console.log(immagini);
 
 for (immagine in immagini){
-  immagine.addEventListener("contextmenu", apriimg(immagine));
+  immagine.addEventListener("click", apriimg(immagine));
 }
