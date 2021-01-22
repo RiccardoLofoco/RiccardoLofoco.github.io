@@ -7,8 +7,7 @@ immagini = document.getElementsByTagName("img");
 console.log(immagini);
 
 for (immagine in immagini){
-  immagine.addEventListener("contextmenu",
-      function(){
+  immagine.addEventListener("contextmenu", function(){
         if(confirm("Aprire l'immagine?")){
           window.open(immagine.url);
         }
