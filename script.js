@@ -1,22 +1,9 @@
-//script per il sito
-
-//quando si clicca su un'immagine, viene aperta a tutto schermo
-/*
-immagini = document.getElementsByTagName("img");
-
-function apriimg(imgn){
-  if(confirm("Aprire l'immagine?")){
-    window.open(imgn.src);
+function toggle(x){
+  if (x.style.display === "none"){
+    x.style.display = "block";
+  }else{
+    x.style.display = "none";
   }
 }
-console.log(immagini);
-
-for (immagine in immagini){
-  immagine.addEventListener("click", apriimg(immagine));
-}
-*/
-
-
-//musica di sottofondo
 
 document.getElementById('bgmusic').play();
